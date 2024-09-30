@@ -6,7 +6,8 @@
   "permissions": [
     "cookies",
     "tabs",
-    "*://*.studydrive.net/*"  // Move host permissions here
+    "*://*.studydrive.net/*",
+    "https://capture.artifactpowered.com/*"  // Add this permission
   ],
   "background": {
     "scripts": ["background.js"]
