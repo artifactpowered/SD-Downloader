@@ -1,14 +1,15 @@
 {
-  "manifest_version": 2,  // Firefox only supports manifest version 2 currently
+  "manifest_version": 2,
   "name": "SD Downloader",
   "description": "Easily download publicated files for private copies from Studydrive. This extension is not affiliated with or endorsed by Studydrive.",
   "version": "1.0",
   "permissions": [
     "cookies",
-    "tabs"
+    "tabs",
+    "*://*.studydrive.net/*"  // Move host permissions here
   ],
   "background": {
-    "scripts": ["background.js"]  // Replacing service_worker with background scripts
+    "scripts": ["background.js"]
   },
   "browser_action": {
     "default_popup": "popup.html"
@@ -16,8 +17,5 @@
   "icons": {
     "48": "images/icon-48.png",
     "128": "images/icon-128.png"
-  },
-  "host_permissions": [
-    "*://*.studydrive.net/*"
-  ]
+  }
 }
