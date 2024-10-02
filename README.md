@@ -2,7 +2,10 @@
 
 Das ist eine Erweiterung für Google Chrome, mit der es möglich ist, Dokumente kostenlos von www.studydrive.net herunterzuladen.
 
-##Installation
+![Screenshot]([https://artifactpowered.com/screenshot-1.png])
+
+
+## Installation
 
 1. Oben auf "Code" klicken und dann auf "Download ZIP".
 2. Entpacke die ZIP Datei
@@ -13,3 +16,6 @@ Das ist eine Erweiterung für Google Chrome, mit der es möglich ist, Dokumente 
 
 
 ![Erklärung](https://user-images.githubusercontent.com/67743899/149144506-714a84a0-cd10-4155-91fe-20c39753b578.jpg)
+
+artifactpowered.com/sd-downloader.html
+
