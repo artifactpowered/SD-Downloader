@@ -17,5 +17,5 @@ Das ist eine Erweiterung für Google Chrome, mit der es möglich ist, Dokumente 
 
 ![Erklärung](https://user-images.githubusercontent.com/67743899/149144506-714a84a0-cd10-4155-91fe-20c39753b578.jpg)
 
-[Andere Plattformen & Support](artifactpowered.com/sd-downloader.html)
+[Andere Plattformen & Support](https://artifactpowered.com/sd-downloader.html)
 
