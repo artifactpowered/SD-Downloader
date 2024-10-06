@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "SD Downloader",
+  "name": "SD Downloader DEVELOPER",
   "description": "Easily download publicated files for private copies from Studydrive. This extension is not affiliated with or endorsed by Studydrive",
   "version": "1.0",
   "permissions": [
