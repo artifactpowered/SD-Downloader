@@ -1,23 +1,27 @@
 {
-  "manifest_version": 3,
-  "name": "SD Downloader DEVELOPER",
-  "description": "Easily download publicated files for private copies from Studydrive. This extension is not affiliated with or endorsed by Studydrive",
-  "version": "1.0",
-  "permissions": [
-    "cookies",
-    "tabs"
-  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
   "background": {
     "service_worker": "background.js"
   },
-  "action": {
-    "default_popup": "popup.html"
+  "description": "Easily download publicated files for private copies from Studydrive. This extension is not affiliated with or endorsed by Studydrive",
+  "developer": {
+    "name": "e8ef268d-440f-4da1-9e8f-f7a0ee9653d1"
   },
   "host_permissions": [
     "*://*.studydrive.net/*"
   ],
   "icons": {
-    "48": "images/icon-48.png",
-	"128": "images/icon-128.png"
-  }
+    "128": "images/icon-128.png",
+    "48": "images/icon-48.png"
+  },
+  "manifest_version": 3,
+  "name": "SD Downloader",
+  "permissions": [
+    "cookies",
+    "tabs"
+  ],
+  "update_url": "https://extension-updates.opera.com/api/omaha/update/",
+  "version": "1.0"
 }
