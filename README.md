@@ -15,6 +15,13 @@ Das ist eine Erweiterung für Google Chrome, mit der es möglich ist, Dokumente 
 6. Wähle den Ordner aus, in den du vorhin die ZIP-Datei entpackt hast.
 
 
+## Sicherheitshinweise
+
+Diese Erweiterung kopiert die Authentifizierungscookies aus deinem Browser. Dadurch hat der Server theoretisch die volle Kontrolle über deinen Account. Wir können allerdings garantieren, dass diese Cookies nur für den Download verwendet werden, und danach sofort gelöscht werden. Es kommt in keinem Fall zu einer Speicherung. **Falls du dich trotzdem unwohl dabei fühlen solltest, empfehlen wir dir einen zweiten Account, den du nur für Downloads bei Studydrive verwendest, einzurichten.**
+
+Wir möchten auch daran erinnern, dass selbst wenn jemand böse Absichten hätte, er wahrscheinlich kaum Schaden mit deinem Studydrive Account anrichten könnte.
+
+
 ![Erklärung](https://user-images.githubusercontent.com/67743899/149144506-714a84a0-cd10-4155-91fe-20c39753b578.jpg)
 
 [Andere Plattformen & Support](https://artifactpowered.com/sd-downloader.html)
