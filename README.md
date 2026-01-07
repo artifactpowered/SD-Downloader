@@ -1,20 +1,22 @@
 # SD-Downloader
 
+## Achtung
+
+Diese Erweiterung wird nicht mehr von artifact betrieben! Der Server wird abgeschaltet.
+Der Source code für den Server ist verfügbar unter  ![https://github.com/artifactpowered/SD-Downloader-Server](https://github.com/artifactpowered/SD-Downloader-Server) womit dieser selbst gehostet werden kann. 
+Dafür muss im Code dieser Erweiterung aber die URL geändert werden!
+
+This extension is not being maintained by artifact. The server is being shut down.
+The source code for the server is available at ![https://github.com/artifactpowered/SD-Downloader-Server](https://github.com/artifactpowered/SD-Downloader-Server) which can be used to host the server on your machine.
+Do not forget to change the URL in the code of this extension!
+
+
+
 Das ist eine Erweiterung für Google Chrome, mit der es möglich ist, Dokumente kostenlos von www.studydrive.net herunterzuladen.
 
 ![Screenshot](https://artifactpowered.com/screenshot-1.png)
 
 
-## Installation
-
-1. Oben auf "Code" klicken und dann auf "Download ZIP".
-2. Entpacke die ZIP Datei
-3. Öffne den Erweiterungen-Tab bei Google Chrome, in dem du "chrome://extensions" in die Suchleiste eingist
-4. Aktiviere den "Entwickler-Modus" oben links
-5. Klicke auf "Entpackte Erweiterung laden"
-6. Wähle den Ordner aus, in den du vorhin die ZIP-Datei entpackt hast.
-
-![Erklärung](https://user-images.githubusercontent.com/67743899/149144506-714a84a0-cd10-4155-91fe-20c39753b578.jpg)
 
 ## Sicherheitshinweise
 
@@ -23,5 +25,4 @@ Diese Erweiterung kopiert die Authentifizierungscookies aus deinem Browser. Dadu
 Wir möchten auch daran erinnern, dass selbst wenn jemand böse Absichten hätte, er wahrscheinlich kaum Schaden mit deinem Studydrive Account anrichten könnte.
 
 
-[Andere Plattformen & Support](https://artifactpowered.com/sd-downloader.html)
 
